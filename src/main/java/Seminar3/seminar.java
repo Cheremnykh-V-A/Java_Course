@@ -1,4 +1,4 @@
-package main.java.Seminar3;
+package Seminar3;
 
 import java.util.*;
 
@@ -10,7 +10,7 @@ public class seminar {
 //        listTest();
 //        ex1();
 //        ex2();
-            ex3();
+//            ex3();
         }
 
         private static void ex3() {
