@@ -16,8 +16,8 @@ public class Task {
         // 1. Создание списка:
         Random random = new Random();
         List<Integer> integers = new LinkedList<>();
-        for (int i = 0; i < 10; i++) {
-            integers.add(random.nextInt(100));
+        for (int i = 0; i < 5; i++) {
+            integers.add(random.nextInt(10));
         }
         System.out.println("Список: " + integers);
 
@@ -39,7 +39,15 @@ public class Task {
         }
         System.out.println("Минимальное значение = " + min);
 
-        // 4. Удаление из списка чётных чисел:
+        // 4. Найти среднее значение:
+        double sum = 0;
+        for (int i = 0; i < integers.size(); i++) {
+            sum += integers.get(i);
+        }
+        double averageValue = sum/integers.size();
+        System.out.println("Среднее значение: " + averageValue);
+
+        // 5. Удаление из списка чётных чисел:
         for (int i = 0; i < integers.size(); i++) {
             if (integers.get(i) % 2 == 0){
                 integers.remove(i);
@@ -47,6 +55,8 @@ public class Task {
             }
         }
         System.out.println("Список без чётных чисел: " + integers);
+
+
     }
 
 
