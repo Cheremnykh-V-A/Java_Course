@@ -1,4 +1,4 @@
-package Seminar4;
+package Seminars.Seminar4;
 
 import java.util.LinkedList;
 import java.util.Scanner;

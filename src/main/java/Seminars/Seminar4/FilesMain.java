@@ -1,4 +1,4 @@
-package Seminar4;
+package Seminars.Seminar4;
 
 import java.io.IOException;
 import java.io.InputStream;

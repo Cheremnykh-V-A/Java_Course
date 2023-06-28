@@ -1,21 +1,21 @@
-package Seminar5;
+package Seminars.Seminar5;
 
 import java.util.Map;
 import java.util.TreeMap;
 
 public class seminar {
     public static void main(String[] args) {
-        ex0();
+        System.out.println(ex3("MMMMCMXCIX"));
     }
 
-    private static void ex0() {
-        Map<String, String> employeeMap = new TreeMap<>();
-        employeeMap.put("1234", "Иванов");
-        employeeMap.put("1434", "Петров");
-        employeeMap.put("3434", "Романцев");
-        employeeMap.put("5467", "Князев");
-
-        System.out.println(employeeMap);
+//    private static void ex0() {
+//        Map<String, String> employeeMap = new TreeMap<>();
+//        employeeMap.put("1234", "Иванов");
+//        employeeMap.put("1434", "Петров");
+//        employeeMap.put("3434", "Романцев");
+//        employeeMap.put("5467", "Князев");
+//
+//        System.out.println(employeeMap);
 
         /*Set<String> keySet = employeeMap.keySet();
         System.out.println(keySet);*/
@@ -30,23 +30,23 @@ public class seminar {
         /*for (Map.Entry<String, String> entry : employeeMap.entrySet()) {
             System.out.printf("%s\t->\t%s%n", entry.getKey(), entry.getValue());
         }*/
-
-        employeeMap.forEach((key, value) -> System.out.printf("%s\t->\t%s%n", key, value));
-
-        Map<Integer, String> testMap = Map.of(
-                12, "A",
-                47, "B",
-                7, "C"
-        );
-
-        Map<Integer, String> testMap2 = Map.ofEntries(
-                Map.entry(12, "A"),
-                Map.entry(47, "B"),
-                Map.entry(7, "C")
-        );
+//
+//        employeeMap.forEach((key, value) -> System.out.printf("%s\t->\t%s%n", key, value));
+//
+//        Map<Integer, String> testMap = Map.of(
+//                12, "A",
+//                47, "B",
+//                7, "C"
+//        );
+//
+//        Map<Integer, String> testMap2 = Map.ofEntries(
+//                Map.entry(12, "A"),
+//                Map.entry(47, "B"),
+//                Map.entry(7, "C")
+//        );
 
 //        testMap.put(5, "f");
-    }
+//    }
 
     private static Integer ex3(String romanNum) {
 
