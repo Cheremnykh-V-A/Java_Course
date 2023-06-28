@@ -1,4 +1,4 @@
-package main.java.HomeworkSeminar2;
+package Homeworks.HomeworkSeminar2;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

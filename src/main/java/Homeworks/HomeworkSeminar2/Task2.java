@@ -1,4 +1,4 @@
-package main.java.HomeworkSeminar2;
+package Homeworks.HomeworkSeminar2;
 
 import java.io.IOException;
 import java.util.Arrays;

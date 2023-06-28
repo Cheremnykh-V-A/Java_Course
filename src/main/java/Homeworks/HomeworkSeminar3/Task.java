@@ -1,4 +1,4 @@
-package HomeworkSeminar3;
+package Homeworks.HomeworkSeminar3;
 
 import java.util.LinkedList;
 import java.util.List;

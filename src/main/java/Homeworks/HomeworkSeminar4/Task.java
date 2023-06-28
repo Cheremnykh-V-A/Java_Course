@@ -1,4 +1,4 @@
-package HomeworkSeminar4;
+package Homeworks.HomeworkSeminar4;
 
 import java.util.*;
 
